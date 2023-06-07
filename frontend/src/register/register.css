@@ -1,0 +1,69 @@
+.container{
+  display: flex;
+  justify-content: center;
+ align-items: flex center;
+ height: 100vh;
+ background-image:linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url("https://cdn.wallpapersafari.com/24/98/K0Rtyr.jpg");
+background-position: center;
+background-size: cover;
+}
+
+
+.signup-title{
+  font-weight: 800;
+  font-size: 2rem;
+  color: #3c00a0;
+}
+
+hr{
+  width: 20%;
+  border: 1.5px solid  #3c00a0;
+  
+  margin-bottom: 30px;
+
+  
+}
+
+.input{
+  text-align: center;
+padding: 50px 70px;
+  margin-top: 20vh;
+  background-color: #fff;
+}
+  
+.input-bars{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+  
+input{
+  padding-right: 50px;
+padding-top: 15px;
+padding: 10px;
+background:#eaeaea;
+outline: 0;
+border: 0;
+}
+
+.signup-button{
+  margin-top: 20px;
+  padding: 8px 59px;
+  color: white;
+  background-color:#3c00a0;
+  border: none;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+
+.accountQ{
+  margin: 20px 0px;
+  font-family: "poppins", sans-serif;
+ 
+}
+.accountQ > a{
+  text-decoration: none;
+}
